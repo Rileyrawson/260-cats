@@ -1,0 +1,274 @@
+/*
+font-family: 'Patrick Hand SC', ;
+font-family: 'Lato', ;
+font-family: 'Patrick Hand', ;
+*/
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:
+  border-box;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+.container{
+ flex-direction:column;
+ justify-content:center;
+}
+label{
+}
+h2{
+ font-size: 30px;
+}
+h3{
+ font-size: 20px;
+}
+p{
+}
+.title{
+  margin:0px;
+}
+.directions{
+  margin:5px;
+}
+.footer{
+ font-size: 70%;
+}
+.pure-form{
+ border: solid 5px;
+ border-color:#172121;
+ padding: 5px;
+ margin-top: 0px;
+ margin-right:5px;
+ margin-left:5px;
+ margin-bottom:5px;
+}
+.item-2{
+ border: solid 5px;
+ border-color: #172121;
+ margin: 20px;
+ padding: 10px;
+}
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+.container{
+ flex-direction:column;
+ justify-content:center;
+}
+label{
+}
+h2{
+ font-size: 50px;
+}
+h3{
+ font-size: 40px;
+}
+p{
+}
+img {
+}
+.title{
+  margin:15px;
+}
+.directions{
+  margin:15px;
+}
+.item-1{
+ text-align: left;
+}
+.pure-form{
+ border: solid 5px;
+ border-color:#172121;
+ padding:10px;
+ margin-top: 0px;
+ margin-right:10px;
+ margin-left:10px;
+ margin-bottom:10px;
+}
+.item-2{
+ border: solid 5px;
+ border-color: #172121;
+ margin: 10px;
+ padding: 10px;
+}
+}
+
+@media only screen and (min-width: 961px) {
+.container{
+ flex-direction:row;
+ justify-content:center;
+}
+label{
+}
+h2{
+ font-size:60px;
+}
+h3{
+ font-size:40px;
+}
+p{
+}
+img{
+}
+.title{
+  margin:15px;
+}
+.directions{
+  margin:15px;
+}
+.item-1{
+ text-align: left;
+}
+.pure-form{
+ border: solid 5px;
+ border-color: #172121;
+ padding:10px;
+ margin-top: 0px;
+ margin-right:10px;
+ margin-left:10px;
+ margin-bottom:10px;
+}
+.item-2{
+ border: solid 5px;
+ border-color: #172121;
+ margin: 0px;
+ padding: 10px;
+}
+
+}	
+
+
+
+
+
+/* background color */
+body {
+  padding: 20px;
+  background-color: #E5E5E5;
+}
+
+label{
+ font-family: 'Patrick Hand';
+ color:#1B4965;
+}
+h2{
+ font-family: 'Patrick Hand SC';
+ color:#FF471A;
+}
+h3{
+font-family: 'Patrick Hand SC';
+color: #5FA8D3;
+}
+p{
+font-family: 'Patrick Hand';
+color: #1B4965;
+}
+
+#get {
+ font-family: 'Patrick Hand SC';
+ background-color:#FF471A;
+}
+
+
+.container{
+  display:flex;
+}
+.item{
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+/* Form */
+input[type=checkbox] {
+  transform: scale(1.5);
+  margin-right: 10px;
+}
+
+input[type=text] {
+  font-size: 1em;
+}
+
+input[type=checkbox] {
+  margin-left: 5px;
+  background-color: #FF471A;
+}
+
+input[type=range] {
+  margin-left: 10px;
+}
+
+button {
+  font-family: 'Arvo';
+  font-size: 1em;
+  background-color:#FF471A; !important
+}
+
+li {
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right{
+ display:flex;
+}
+
+.bottom{
+ margin:40px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  size: 20px;
+ /* height: 40px;*/
+  background-color: #ff471a;
+  font-family: 'Roboto';
+  color: white;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  padding: 10px;
+ /* font-size: 20px;*/
+
+}
+a:link {
+  color: #DADCDF;
+}
+a:visited {
+  color: #DADCDF;
+}
+a:hover {
+  color: #DADCDF;
+}
